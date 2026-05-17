@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Balance App</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Eye icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Bank Balance</h1>
+
+    <div class="balance-box">
+      <p>Your Balance</p>
+
+      <div class="balance-row">
+        <h2 id="balanceText">******</h2>
+
+        <!-- Two separate icons, no toggle -->
+        <i id="showEye" class="fa-solid fa-eye"></i>
+        <i id="hideEye" class="fa-solid fa-eye-slash"></i>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button id="depositBtn">Deposit</button>
+      <button id="withdrawBtn">Withdraw</button>
+    </div>
+
+    <div id="amountBox">
+      <h3 id="actionTitle"></h3>
+      <input type="number" id="amountInput" placeholder="Enter amount">
+      <button id="submitBtn">Submit</button>
+    </div>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

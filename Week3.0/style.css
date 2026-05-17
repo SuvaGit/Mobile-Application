@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f7;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 360px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #222;
+  margin-bottom: 25px;
+}
+
+.balance-box {
+  background-color: #eaf0ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.balance-box p {
+  margin: 0;
+  color: #555;
+}
+
+.balance-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.balance-row h2 {
+  font-size: 28px;
+  margin: 15px 0 0;
+}
+
+#showEye,
+#hideEye {
+  font-size: 24px;
+  cursor: pointer;
+  margin-top: 15px;
+  color: #333;
+}
+
+/* crossed eye hidden at first */
+#hideEye {
+  display: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+#amountBox {
+  display: none;
+  margin-top: 20px;
+}
+
+#amountInput {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#message {
+  margin-top: 15px;
+  font-weight: bold;
+}
