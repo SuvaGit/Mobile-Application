@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  // 1. GET & SET
+  // # GET & SET CODE
 
   $("#show-name").click(function () {
     let name = $("#student-name").text();
@@ -12,8 +12,8 @@ $(document).ready(function () {
   });
 
   $("#show-bio").click(function () {
-    let bioHTML = $("#student-bio").html();
-    $("#output").text(bioHTML);
+    let bio = $("#student-bio").html();
+    $("#output").text(bio);
   });
 
   $("#get-input").click(function () {
@@ -26,7 +26,7 @@ $(document).ready(function () {
   });
 
 
-  // 2. CSS CLASSES
+  // # CSS CLASSES CODE
 
   $("#highlight-card").click(function () {
     $("#profile-card").addClass("highlighted");
@@ -45,18 +45,18 @@ $(document).ready(function () {
   });
 
 
-  // 3. CSS METHOD
+  // # CSS METHOD CODE
 
   $("#red-bg").click(function () {
-    $("#profile-card").css("background-color", "#e74c3c");
+    $("#profile-card").css("background", "#e74c3c");
   });
 
   $("#reset-bg").click(function () {
-    $("#profile-card").css("background-color", "white");
+    $("#profile-card").css("background", "white");
   });
 
 
-  // 4. HIDE & SHOW
+  // # HIDE & SHOW CODE
 
   $("#hide-photo").click(function () {
     $("#profile-photo").hide("slow");
@@ -71,7 +71,7 @@ $(document).ready(function () {
   });
 
 
-  // 5. FADE
+  // # FADE CODE
 
   $("#fade-out-card").click(function () {
     $("#profile-card").fadeOut();
@@ -81,12 +81,12 @@ $(document).ready(function () {
     $("#profile-card").fadeIn();
   });
 
-  $("#fade-to-card").click(function () {
+  $("#fade-to-half").click(function () {
     $("#profile-card").fadeTo("slow", 0.5);
   });
 
 
-  // 6. SLIDE
+  // # SLIDE CODE
 
   $("#slide-up-skills").click(function () {
     $("#skills-list").slideUp();
@@ -101,7 +101,7 @@ $(document).ready(function () {
   });
 
 
-  // 7. ANIMATE
+  // # ANIMATE CODE
 
   $("#animate-card").click(function () {
     $("#profile-card")
@@ -110,7 +110,7 @@ $(document).ready(function () {
   });
 
 
-  // 8. EVENTS
+  // # EVENTS CODE
 
   $("#profile-photo").mouseenter(function () {
     $("#profile-photo").addClass("shadow");
@@ -120,7 +120,7 @@ $(document).ready(function () {
     $("#profile-photo").removeClass("shadow");
   });
 
-  $("#nickname-input").keydown(function (event) {
+  $("#nickname-input").keypress(function (event) {
     $("#output").text("Pressed key: " + event.key);
   });
 
