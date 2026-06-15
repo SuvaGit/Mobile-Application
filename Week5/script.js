@@ -22,3 +22,4 @@
   const db = getDatabase(app);
 
 console.log(db)
+// Firebase Database Connection
