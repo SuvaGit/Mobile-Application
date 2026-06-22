@@ -1,0 +1,16 @@
+MEROGHAR UPDATED VERSION
+
+This version includes:
+- Six complete sample property listings with photos and full details.
+- 2BHK Apartment in New Baneshwor.
+- Family House in Jawalakhel.
+- Furnished Single Room in Suryabinayak.
+- Modern House for Sale in Pokhara.
+- 3BHK Family Apartment in Boudha.
+- Residential House with Parking in Bharatpur.
+- Sample listings remain visible even after Firebase is connected.
+- Firestore listings and sample listings are shown together.
+- Property posting continues even when Firebase Storage cannot upload a photo.
+- The corrected Firebase API key is included in .env.
+
+Open the folder in VS Code, run npm install, and then run npx expo start -c.

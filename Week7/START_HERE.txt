@@ -1,0 +1,15 @@
+MEROGHAR QUICK START
+
+1. Unzip this project.
+2. Open only the MeroGharComplete folder in VS Code.
+3. Open Terminal in VS Code.
+4. Run: npm install
+5. Run: npx expo start -c
+6. Scan the QR code using Expo Go.
+
+DEMO LOGIN
+Email: demo@meroghar.com
+Password: 123456
+
+The complete app works in demo mode first. To activate the real Firebase backend,
+follow the Firebase steps in README.md and copy .env.example to .env.

@@ -1,0 +1,14 @@
+OPEN THIS EXACT FOLDER IN VS CODE: MeroGharHomeFixed
+
+This version always shows six sample homes on the Home screen:
+1. 2BHK Apartment, New Baneshwor
+2. Family House, Jawalakhel
+3. Furnished Single Room, Suryabinayak
+4. Modern House for Sale, Pokhara
+5. 3BHK Family Apartment, Boudha
+6. Residential House with Parking, Bharatpur
+
+No new Firebase project is needed.
+Run:
+  npm install
+  npx expo start -c

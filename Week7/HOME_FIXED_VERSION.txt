@@ -1,0 +1,2 @@
+MeroGhar Home Fixed Version
+The Home tab always includes six built-in sample homes with title, location, beds, bathrooms, property type, price, photo, and a working details page.
